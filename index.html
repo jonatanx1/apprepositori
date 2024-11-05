@@ -1,39 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
-    <title>Criptomoedas</title>
-    <link rel="stylesheet" href="styles.css">
+  <title>Meu Site Amarelo, Preto e Branco</title>
+  <style>
+    /* Seu CSS aqui */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffff00; /* Amarelo */
+    }
+    /* ... resto do seu CSS */
+  </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h1>Criptomoedas</h1>
-            <p>Seja bem-vindo ao nosso site de criptomoedas!</p>
-            <button>Compre agora</button>
-        </section>
-        <section>
-            <h2>Últimas notícias</h2>
-            <ul>
-                <li><a href="#">Notícia 1</a></li>
-                <li><a href="#">Notícia 2</a></li>
-                <li><a href="#">Notícia 3</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Criptomoedas</p>
-    </footer>
-    <script src="script.js"></script>
+  <header>
+    <h1>Bem-vindo ao meu site!</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Este é um exemplo de texto.</p>
+      <button id="meuBotao">Clique aqui</button>
+    </section>
+  </main>
+  <script>
+    const botao = document.getElementById('meuBotao');
+    botao.addEventListener('click', () => {
+      alert('Você clicou no botão!');
+    });
+  </script>
 </body>
 </html>
