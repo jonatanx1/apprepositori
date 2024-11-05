@@ -1,63 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffff00; /* Yellow */
-  }
-  
-  header {
-    background-color: #000000; /* Black */
-    color: #ffffff; /* White */
-    padding: 20px;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  nav   
-   li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;   
-   /* White */
-    text-decoration: none;
-  }
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  section {
-    background-color: #000000; /* Black */
-    color: #ffffff; /* White */
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    background-color: #ffff00; /* Yellow */
-    color: #000000; /* Black */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e5e5e5; /* Light Gray */
-  }
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('fundo.jpg'); /* Substitua por sua imagem de fundo */
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+}
